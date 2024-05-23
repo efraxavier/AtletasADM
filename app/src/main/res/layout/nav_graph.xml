@@ -1,0 +1,19 @@
+<!-- res/navigation/nav_graph.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/juvenilFragment">
+
+    <fragment
+        android:id="@+id/juvenilFragment"
+        android:name="com.example.natacao.JuvenilFragment"
+        android:label="Juvenil" />
+    <fragment
+        android:id="@+id/seniorFragment"
+        android:name="com.example.natacao.SeniorFragment"
+        android:label="Sênior" />
+    <fragment
+        android:id="@+id/outroFragment"
+        android:name="com.example.natacao.OutroFragment"
+        android:label="Outro" />
+</navigation>

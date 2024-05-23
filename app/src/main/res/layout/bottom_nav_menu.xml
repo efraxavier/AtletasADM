@@ -1,0 +1,12 @@
+<!-- res/menu/bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_juvenil"
+        android:title="Juvenil" />
+    <item
+        android:id="@+id/nav_senior"
+        android:title="Sênior" />
+    <item
+        android:id="@+id/nav_outro"
+        android:title="Outro" />
+</menu>
